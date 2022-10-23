@@ -1,6 +1,16 @@
+.top {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
-    background-color: #1F2937;
     justify-content: space-between;
 }
 
@@ -12,7 +22,7 @@ ul {
 }
 
 li, .logo {
-    color: white;
+    color: #F9FAF8;
 }
 
 .logo {
@@ -26,14 +36,39 @@ li, .logo {
 
 .main {
     display: flex;
-    background-color: #1F2937;
+    justify-content: center;
+    padding: 80px;
 }
 
 .left {
-    color: white;
+    color: #F9FAF8;
+    width: 400px;
+}
+
+img {
+    max-width: 500px;
+    height: auto;
 }
 
 .title {
     font-size: 48px;
     font-weight: 800;
+}
+
+.text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button.signup {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bolder;
+    border: none;
+    margin-top: 10px;
 }
