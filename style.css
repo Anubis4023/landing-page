@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
 body .top {
     background-color: #1F2937;
     display: flex;
@@ -31,13 +37,13 @@ li, .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 16px;
 }
 
 .main {
     display: flex;
     justify-content: center;
-    padding: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .main .left {
@@ -83,6 +89,7 @@ button.signup {
 .mid-container {
     display: flex;
     gap: 46px;
+    flex-wrap: wrap;
 }
 
 .mid-top .text {
@@ -168,4 +175,16 @@ button .text {
 .left .first {
     font-size: 24px;
     font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 38px;
+}
+
+.footer .text {
+    color: white;
+    font-size: 18px;
 }
