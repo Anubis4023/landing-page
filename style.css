@@ -73,10 +73,11 @@ button.signup {
     margin-top: 10px;
 }
 
-.mid {
+.mid-top {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 64px;
 }
 
 .mid-container {
@@ -84,7 +85,7 @@ button.signup {
     gap: 46px;
 }
 
-.mid .text {
+.mid-top .text {
     font-size: 36px;
     font-weight: 800; /*Extra bold*/
     color: #1F2937;
@@ -99,4 +100,20 @@ button.signup {
 .pic {
     max-width: 300px;
     max-height: auto;
+}
+
+.mid-bot {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 98px;
+}
+
+.mid-bot .quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 800px;
 }
