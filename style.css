@@ -70,4 +70,19 @@ ul, .intro-subtext {
     display: flex;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
 
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-author {
+    font-weight: bold;
+    align-self: flex-end;
+}
