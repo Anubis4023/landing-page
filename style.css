@@ -86,3 +86,24 @@ ul, .intro-subtext {
     font-weight: bold;
     align-self: flex-end;
 }
+
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: white;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    border-radius: 12px;
+    padding: 1px 32px;
+    font-weight: bold;
+}
+
+.sign-header {
+    font-weight: bold;
+    font-size: 20px;
+}
