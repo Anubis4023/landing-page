@@ -5,10 +5,11 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto';
+    margin: 0;
 }
 
 .header, .intro, .info, .quote, .sign-up, .footer {
-    padding: 32px 64px;
+    padding: 32px 150px;
 }
 
 img {
@@ -64,10 +65,28 @@ ul, .intro-subtext {
     font-weight: 800;
     color: #1F2937;
     text-align: center;
+    margin-bottom: 32px;
 }
 
 .containers {
     display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.container {
+    width: 200px;
+}
+
+.container img {
+    border-radius: 30px;
+    border: solid 4px;
+    border-color: #3882F6;
+}
+
+img {
+    width: 200px;
+    height: 200px;
 }
 
 .quote {
@@ -80,11 +99,13 @@ ul, .intro-subtext {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
+    margin: 0 128px;
 }
 
 .quote-author {
     font-weight: bold;
     align-self: flex-end;
+    margin: 0 192px;
 }
 
 .sign-up {
