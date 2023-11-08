@@ -39,6 +39,17 @@ img {
     justify-content: space-between;
 }
 
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    gap: 10px;
+}
+
+.intro button {
+    border: none;
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -58,6 +69,11 @@ ul, .intro-subtext {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    
+}
+
+.intro-header, .intro-subtext {
+    width: 400px;
 }
 
 .info-title {
@@ -100,8 +116,7 @@ img {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    /* margin: 24px 128px; */
-    /* padding: 0px 256px; */
+    color: #1F2937;
     margin-top: 80px;
     width: 840px;
 }
@@ -118,15 +133,21 @@ img {
     justify-content: space-between;
     background-color: #3882F6;
     color: white;
+    margin: 80px 200px;
+    border-radius: 12px;
 }
 
 button {
+    align-self: flex-start;
     background-color: #3882F6;
     color: white;
-    border-color: white;
     border-radius: 12px;
-    padding: 1px 32px;
+    padding: 10px 32px;
     font-weight: bold;
+}
+
+.sign-up button {
+    border-color: white;
 }
 
 .sign-header {
